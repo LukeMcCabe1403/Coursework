@@ -1,3 +1,4 @@
+package Coursework;
 import java.util.Scanner;
 
 class Dec2Hex
@@ -5,8 +6,9 @@ class Dec2Hex
 
     public static int Arg1;
 
-    public static void main(String args[])
-    {
+public static String Convert(String args[])
+{
+
         Arg1 = Integer.parseInt(args[0]);
         char ch[]={'0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F'};
         int rem, num;
@@ -21,7 +23,17 @@ class Dec2Hex
             num= num/16;
         }
 
-        System.out.println("Hexadecimal representation isss: " + hexadecimal);
+        return hexadecimal;
+
+}
+
+    public static void main(String args[])
+    {
+
+    String result = Convert(args);
+
+    System.out.println("Hexadecimal representation is: " + result);
+
 
     }
 }
