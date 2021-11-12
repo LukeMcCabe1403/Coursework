@@ -11,7 +11,5 @@ public class Dec2HexTest {
         assertEquals("2", Dec2Hex.Convert(new String[]{"2"}));
         assertEquals("F", Dec2Hex.Convert(new String[]{"15"}));
         assertEquals("25", Dec2Hex.Convert(new String[]{"19"}));
-        assertEquals("4000", Dec2Hex.Convert(new String[]{"FA0"}));
-        assertEquals("8400", Dec2Hex.Convert(new String[]{"20D0"}));
     }
 }
