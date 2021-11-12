@@ -14,15 +14,4 @@ public class Dec2HexTest {
         assertEquals("4000", Dec2Hex.Convert(new String[]{"FA0"}));
         assertEquals("8400", Dec2Hex.Convert(new String[]{"20D0"}));
     }
-
-    @Test public void validNumber(){
-        assertTrue(Dec2Hex.validInput("1"));
-        assertTrue(Dec2Hex.validInput("84"));
-        assertTrue(Dec2Hex.validInput("0"));
-
-        assertFalse(Dec2Hex.validInput("-1"));
-        assertFalse(Dec2Hex.validInput("-84"));
-        assertFalse(Dec2Hex.validInput("-72"));
-}
-
 }
