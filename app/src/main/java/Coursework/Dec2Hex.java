@@ -27,20 +27,6 @@ public static String Convert(String args[])
 
 }
 
-    public static boolean validNumber(int Arg1)
-    {
-    
-        if(Arg1 < 0)
-        {
-        
-            System.out.println("Error: Number is not a positive number");
-            return false;
-        
-        }
-        return true;
-    
-    }
-
     public static void main(String args[])
     {
 
