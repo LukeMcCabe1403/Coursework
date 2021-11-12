@@ -32,7 +32,7 @@ public static String Convert(String args[])
 
     String result = Convert(args);
 
-    System.out.println("Hex representation is: " + result);
+    System.out.println("Hexadecimal representation is: " + result);
 
 
     }
