@@ -16,13 +16,13 @@ public class Dec2HexTest {
     }
 
     @Test public void validNumber(){
-        assertTrue(Dec2Hex.validInput(1));
-        assertTrue(Dec2Hex.validInput(84));
-        assertTrue(Dec2Hex.validInput(0));
+        assertTrue(Dec2Hex.validInput("1"));
+        assertTrue(Dec2Hex.validInput("84"));
+        assertTrue(Dec2Hex.validInput("0"));
 
-        assertFalse(Dec2Hex.validInput(-1));
-        assertFalse(Dec2Hex.validInput(-84));
-        assertFalse(Dec2Hex.validInput(-72));
+        assertFalse(Dec2Hex.validInput("-1"));
+        assertFalse(Dec2Hex.validInput("-84"));
+        assertFalse(Dec2Hex.validInput("-72"));
 }
 
 }
