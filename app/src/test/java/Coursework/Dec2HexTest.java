@@ -10,6 +10,5 @@ public class Dec2HexTest {
     @Test public void validateInput() {
         assertEquals("2", Dec2Hex.Convert(new String[]{"2"}));
         assertEquals("F", Dec2Hex.Convert(new String[]{"15"}));
-        assertEquals("25", Dec2Hex.Convert(new String[]{"19"}));
     }
 }
